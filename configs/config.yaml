@@ -1,0 +1,27 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  temp_dir : artifacts/temp
+  transform_dir : artifacts/transform
+  
+
+data_transformation:
+  transform_dir : artifacts/transform
+  train_label_dir: artifacts/data/labels/train
+  test_label_dir: artifacts/data/labels/val
+  train_image_dir : artifacts/data/images/train
+  test_image_dir: artifacts/data/images/val
+  yolo_config_dir: artifacts/yolo-config
+
+
+
+  
+
+model_training:
+  yolo_config_dir: artifacts/yolo-config
+
+# model_pusher:
+#   training: artifacts/model_training/model_pickle
+#   s3_bucket_pickle : artifacts/model_pusher/s3_bucket_pickle
+

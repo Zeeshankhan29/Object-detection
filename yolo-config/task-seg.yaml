@@ -1,0 +1,7 @@
+# path: "/opt/crossvision/self-checkout/artifacts/data/"
+path: "C:/Users/Zeeshan.khan/vscode_projects/object-detection/artifacts/data/"
+train: images/train 
+val: images/val  
+
+nc: 2
+names: ['Apple Fuji', 'Mosambi']
