@@ -31,8 +31,8 @@ conda activate detection
 ```
 
 
-Run the pipeline by adding the data into directories artifacts\temp\mask (mask data or annotation) and 
-artifacts\temp (original image)
+Run the pipeline by adding the data into directories 
+artifacts\temp (original image and  coco json file)
 
 ```
 python main.py
